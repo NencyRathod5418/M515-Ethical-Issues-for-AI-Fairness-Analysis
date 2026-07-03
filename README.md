@@ -23,7 +23,7 @@ The main goal is to identify gender bias in the model and apply bias mitigation 
 ## 📁 Dataset
 
 Adult Census Income Dataset  
-Source: https://archive.ics.uci.edu/ml/datasets/adult
+Source: [https://archive.ics.uci.edu/ml/datasets/adult](https://www.kaggle.com/datasets/uciml/adult-census-income?resource=download)
 
 Features include:
 - Age
