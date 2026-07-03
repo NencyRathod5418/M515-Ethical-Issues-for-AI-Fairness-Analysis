@@ -1,66 +1,78 @@
-# M515-Ethical-Issues-for-AI-Fairness-Analysis
-
 # Fairness Analysis and Bias Mitigation in Adult Income Prediction
 
-## Student
+## 📌 Project Overview
 
-Name: Nencyben Vijaybhai Rathod
+This project focuses on evaluating and improving fairness in a machine learning model that predicts whether an individual earns more than $50K per year using the Adult Census Income dataset.
 
-Student ID: GH1036105
+The main goal is to identify gender bias in the model and apply bias mitigation techniques to improve fairness while maintaining acceptable accuracy.
 
-Module:
-M515 Ethical Issues for AI
+---
 
-## Project Overview
+## 📊 Objectives
 
-This project investigates fairness issues in machine learning using the Adult Census Income dataset.
+- Perform Exploratory Data Analysis (EDA)
+- Train a baseline Logistic Regression model
+- Evaluate fairness using Demographic Parity Difference
+- Identify gender bias in predictions
+- Apply bias mitigation using Exponentiated Gradient method
+- Compare results before and after mitigation
+- Provide ethical and business recommendations
 
-The project includes:
+---
 
-- Exploratory Data Analysis
-- Logistic Regression Model
-- Fairness Evaluation
-- Demographic Parity Difference
-- Exponentiated Gradient Bias Mitigation
-- Comparison before and after mitigation
-- Business recommendations
+## 📁 Dataset
 
-## Dataset
+Adult Census Income Dataset  
+Source: https://archive.ics.uci.edu/ml/datasets/adult
 
-Adult Census Income Dataset
+Features include:
+- Age
+- Education
+- Occupation
+- Hours per week
+- Sex (protected attribute)
+- Income (target variable)
 
-Source:
-https://archive.ics.uci.edu/ml/datasets/adult
+---
 
-## Libraries
+## ⚙️ Installation
 
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
-- fairlearn
+Install dependencies using:
 
-## Repository Structure
-
-- Fairness_Analysis.ipynb
-- Fairness_Analysis.html
-- adult.csv
-- requirements.txt
-- images/
-
-## How to Run
-
-1. Install dependencies
-
+```bash
 pip install -r requirements.txt
 
-2. Open the notebook
-
+🚀 How to Run
+Open terminal or Anaconda prompt
+Run:
 jupyter notebook
 
-3. Run all cells
+Open:
+Fairness_Analysis.ipynb
 
-## Author
+Run all cells
 
-Nencyben Vijaybhai Rathod
+📁 Repository Structure
+M515-Ethical-Issues-for-AI-Fairness-Analysis/
+│
+├── Fairness_Analysis.ipynb
+├── Fairness_Analysis.html
+├── adult.csv
+├── README.md
+└── requirements.txt
+
+🧠 Ethical Focus
+
+This project addresses:
+
+Algorithmic fairness
+Gender bias in machine learning
+Responsible AI decision-making
+Trade-off between fairness and accuracy
+
+📌 Author
+
+Name: Nencyben Vijaybhai Rathod
+Student ID: GH1036105
+Module: M515 Ethical Issues for AI
+
